@@ -1,0 +1,206 @@
+{
+  "EmberDecorator.Application": {
+    "prefix": "ED:Application",
+    "body": "import Application from '@ember/application';"
+  },
+  "EmberDecorator.Attribute": {
+    "prefix": "ED:attribute",
+    "body": "import { attribute } from '@ember-decorators/component';"
+  },
+  "EmberDecorator.ClassNames": {
+    "prefix": "ED:classNames",
+    "body": "import { classNames } from '@ember-decorators/component';"
+  },
+  "EmberDecorator.TagName": {
+    "prefix": "ED:tagName",
+    "body": "import { tagName } from '@ember-decorators/component';"
+  },
+  "EmberDecorator.Controller": {
+    "prefix": "ED:controller",
+    "body": "import { controller } from '@ember-decorators/controller';"
+  },
+  "EmberDecorator.Attr": {
+    "prefix": "ED:attr",
+    "body": "import { attr } from '@ember-decorators/data';"
+  },
+  "EmberDecorator.HasMany": {
+    "prefix": "ED:hasMany",
+    "body": "import { hasMany } from '@ember-decorators/data';"
+  },
+  "EmberDecorator.BelongsTo": {
+    "prefix": "ED:belongsTo",
+    "body": "import { belongsTo } from '@ember-decorators/data';"
+  },
+  "EmberDecorator.Action": {
+    "prefix": "ED:action",
+    "body": "import { action } from '@ember-decorators/object';"
+  },
+  "EmberDecorator.Computed": {
+    "prefix": "ED:computed",
+    "body": "import { computed } from '@ember-decorators/object';"
+  },
+  "EmberDecorator.AutoComputed": {
+    "prefix": "ED:autoComputed",
+    "body": "import computed from '@ember-decorators/auto-computed';"
+  },
+  "EmberDecorator.ReadOnly": {
+    "prefix": "ED:readOnly",
+    "body": "import { readOnly } from '@ember-decorators/object';"
+  },
+  "EmberDecorator.Andy": {
+    "prefix": "ED:and",
+    "body": "import { and } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Bool": {
+    "prefix": "ED:bool",
+    "body": "import { bool } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.collect": {
+    "prefix": "ED:collect",
+    "body": "import { collect } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.DeprecatingAlias": {
+    "prefix": "ED:deprecatingAlias",
+    "body": "import { deprecatingAlias } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Empty": {
+    "prefix": "ED:empty",
+    "body": "import { empty } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Equal": {
+    "prefix": "ED:equal",
+    "body": "import { equal } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Filter": {
+    "prefix": "ED:filter",
+    "body": "import { filter } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.filterBy": {
+    "prefix": "ED:filterBy",
+    "body": "import { filterBy } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Gt": {
+    "prefix": "ED:gt",
+    "body": "import { gt } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.gte": {
+    "prefix": "ED:gte",
+    "body": "import { gte } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Intersect": {
+    "prefix": "ED:intersect",
+    "body": "import { intersect } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Lte": {
+    "prefix": "ED:lte",
+    "body": "import { lte } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Map": {
+    "prefix": "ED:map",
+    "body": "import { map } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.MapBy": {
+    "prefix": "ED:mapBy",
+    "body": "import { mapBy } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.match": {
+    "prefix": "ED:match",
+    "body": "import { match } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Max": {
+    "prefix": "ED:max",
+    "body": "import { max } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.min": {
+    "prefix": "ED:min",
+    "body": "import { min } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.None": {
+    "prefix": "ED:none",
+    "body": "import { none } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Not": {
+    "prefix": "ED:not",
+    "body": "import { not } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.NotEmpty": {
+    "prefix": "ED:notEmpty",
+    "body": "import { notEmpty } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.OneWay": {
+    "prefix": "ED:oneWay",
+    "body": "import { oneWay } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Or": {
+    "prefix": "ED:or",
+    "body": "import { or } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Reads": {
+    "prefix": "ED:reads",
+    "body": "import { reads } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Sort": {
+    "prefix": "ED:sort",
+    "body": "import { sort } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Sum": {
+    "prefix": "ED:sum",
+    "body": "import { sum } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Union": {
+    "prefix": "ED:union",
+    "body": "import { union } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Uniq": {
+    "prefix": "ED:uniq",
+    "body": "import { uniq } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.UniqBy": {
+    "prefix": "ED:uniqBy",
+    "body": "import { uniqBy } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.Service": {
+    "prefix": "ED:service",
+    "body": "import { service } from '@ember-decorators/object/computed';"
+  },
+  "EmberDecorator.ServiceModel": {
+    "prefix": "ED:Service",
+    "body": "import Service from '@ember/service';"
+  },
+  "EmberDecorator.ComponentModel": {
+    "prefix": "ED:Component",
+    "body": "import Component from '@ember/component';"
+  },
+  "EmberDecorator.RouteModel": {
+    "prefix": "ED:Route",
+    "body": "import Route from '@ember/routing/route';"
+  },
+  "EmberDecorator.JSONAPIModel": {
+    "prefix": "ED:JSONAPI",
+    "body": "import JSONAPIAdapter from 'ember-data/adapters/json-api';"
+  },
+  "EmberDecorator.ComponentJsTemplate": {
+    "prefix": "ED:ComponentJsTemplate",
+    "body": [
+      "import Component from '@ember/component';",
+      "export default class ${1:ComponentName} extends Component {",
+      "}"
+    ]
+  },
+  "EmberDecorator.RouteTemplate": {
+    "prefix": "ED:RouteTemplate",
+    "body": [
+      "import Route from '@ember/routing/route';",
+      "export default class ${1:RouteName} extends Route {",
+      "}"
+    ]
+  },
+  "EmberDecorator.ServiceTemplate": {
+    "prefix": "ED:ServiceTemplate",
+    "body": [
+      "import { service } from '@ember-decorators/object/computed';",
+      "export default class ${1:ServiceName} extends Service {",
+      "}"
+    ]
+  }
+}
