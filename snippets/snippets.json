@@ -1,4 +1,20 @@
 {
+  "EmberDecorator.Argument": {
+    "prefix": "ED:argument",
+    "body": "import { argument } from '@ember-decorators/argument';"
+  },
+  "EmberDecorator.Type": {
+    "prefix": "ED:type",
+    "body": "import { type } from '@ember-decorators/argument/type';"
+  },
+  "EmberDecorator.TypeDecorator": {
+    "prefix": "ED:typeDecorator",
+    "body": "@type ${1|any,boolean,null,number,object,string,symbol,undefined|}"
+  },
+  "EmberDecorator.Required": {
+    "prefix": "ED:required",
+    "body": "import { immutable } from '@ember-decorators/argument/validation';"
+  },
   "EmberDecorator.Application": {
     "prefix": "ED:Application",
     "body": "import Application from '@ember/application';"
