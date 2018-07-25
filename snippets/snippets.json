@@ -161,7 +161,7 @@
   },
   "EmberDecorator.Service": {
     "prefix": "ED:service",
-    "body": "import { service } from '@ember-decorators/object/computed';"
+    "body": "import { service } from '@ember-decorators/service';"
   },
   "EmberDecorator.ServiceModel": {
     "prefix": "ED:Service",
