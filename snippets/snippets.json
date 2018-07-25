@@ -13,6 +13,10 @@
   },
   "EmberDecorator.Required": {
     "prefix": "ED:required",
+    "body": "import { required } from '@ember-decorators/argument/validation';"
+  },
+  "EmberDecorator.Immutable": {
+    "prefix": "ED:immutable",
     "body": "import { immutable } from '@ember-decorators/argument/validation';"
   },
   "EmberDecorator.Application": {
