@@ -218,7 +218,7 @@
   "EmberDecorator.ServiceTemplate": {
     "prefix": "ED:ServiceTemplate",
     "body": [
-      "import { service } from '@ember-decorators/object/computed';",
+      "import Service from '@ember/service';",
       "export default class ${1:ServiceName} extends Service {",
       "}"
     ]
