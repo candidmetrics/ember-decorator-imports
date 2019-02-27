@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/opt/nvm/versions/node/v6.11.3/bin/node',
+1 verbose cli   '/usr/local/opt/nvm/versions/node/v6.11.3/bin/npm',
+1 verbose cli   'show',
+1 verbose cli   'vsce',
+1 verbose cli   'version' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly mapToRegistry name vsce
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'vsce',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'vsce',
+7 silly mapToRegistry   name: 'vsce',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/vsce
+9 verbose request uri https://registry.npmjs.org/vsce
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 10:35:41 PM
+12 verbose request id 9cacedbfb2001c95
+13 verbose etag W/"78606f1b222275c7f73126c57e0d3865"
+14 verbose lastModified Thu, 12 Jul 2018 12:51:12 GMT
+15 http request GET https://registry.npmjs.org/vsce
+16 http 304 https://registry.npmjs.org/vsce
+17 verbose headers { date: 'Tue, 17 Jul 2018 05:35:43 GMT',
+17 verbose headers   connection: 'keep-alive',
+17 verbose headers   'set-cookie': [ '__cfduid=d1a57e875a9529322e5995d436e21957b1531805743; expires=Wed, 17-Jul-19 05:35:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+17 verbose headers   'cache-control': 'max-age=300',
+17 verbose headers   'cf-cache-status': 'HIT',
+17 verbose headers   'cf-ray': '43ba58c60bfd8cff-PDX',
+17 verbose headers   etag: '"78606f1b222275c7f73126c57e0d3865"',
+17 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+17 verbose headers   'last-modified': 'Thu, 12 Jul 2018 12:51:12 GMT',
+17 verbose headers   vary: 'accept-encoding, accept',
+17 verbose headers   server: 'cloudflare' }
+18 silly get cb [ 304,
+18 silly get   { date: 'Tue, 17 Jul 2018 05:35:43 GMT',
+18 silly get     connection: 'keep-alive',
+18 silly get     'set-cookie': [ '__cfduid=d1a57e875a9529322e5995d436e21957b1531805743; expires=Wed, 17-Jul-19 05:35:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+18 silly get     'cache-control': 'max-age=300',
+18 silly get     'cf-cache-status': 'HIT',
+18 silly get     'cf-ray': '43ba58c60bfd8cff-PDX',
+18 silly get     etag: '"78606f1b222275c7f73126c57e0d3865"',
+18 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+18 silly get     'last-modified': 'Thu, 12 Jul 2018 12:51:12 GMT',
+18 silly get     vary: 'accept-encoding, accept',
+18 silly get     server: 'cloudflare' } ]
+19 verbose etag https://registry.npmjs.org/vsce from cache
+20 verbose get saving vsce to /Users/averybloom/.npm/registry.npmjs.org/vsce/.cache.json
+21 verbose correctMkdir /Users/averybloom/.npm correctMkdir not in flight; initializing
+22 verbose exit [ 0, true ]
+23 verbose stack Error: write EPIPE
+23 verbose stack     at exports._errnoException (util.js:1020:11)
+23 verbose stack     at WriteWrap.afterWrite (net.js:800:14)
+24 verbose cwd /Users/averybloom/Documents/Development/ember-decorator-imports
+25 error Darwin 16.7.0
+26 error argv "/usr/local/opt/nvm/versions/node/v6.11.3/bin/node" "/usr/local/opt/nvm/versions/node/v6.11.3/bin/npm" "show" "vsce" "version"
+27 error node v6.11.3
+28 error npm  v3.10.10
+29 error code EPIPE
+30 error errno EPIPE
+31 error syscall write
+32 error write EPIPE
+33 error If you need help, you may report this error at:
+33 error     <https://github.com/npm/npm/issues>
+34 verbose exit [ 1, true ]

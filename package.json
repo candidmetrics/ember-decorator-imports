@@ -3,19 +3,19 @@
     "displayName": "Ember Decorator Snippets",
     "author": {
         "name": "Avery Bloom",
-        "email": "avery@candidretail.com",
-        "url": "http://www.candidretail.com"
+        "email": "avery@candidwholesale.com",
+        "url": "http://www.candidwholesale.com"
     },
     "contributors": [
         {
             "name": "Avery Bloom",
-            "email": "avery@candidretail.com",
-            "url": "http://www.candidretail.com"
+            "email": "avery@candidwholesale.com",
+            "url": "http://www.candidwholesale.com"
         },
         {
             "name": "Dave Lowensohn",
-            "email": "dave@candidretail.com",
-            "url": "http://www.candidretail.com"
+            "email": "dave@candidwholesale.com",
+            "url": "http://www.candidwholesale.com"
         }
     ],
     "galleryBanner": {
@@ -31,7 +31,7 @@
         "Ember"
     ],
     "description": "Decorator snippets to make importing decorators modules a snap in VSCode.",
-    "version": "1.2.6",
+    "version": "3.0.0",
     "publisher": "candidmetrics",
     "engines": {
         "vscode": "^1.5.0"

@@ -8,6 +8,15 @@ All of these snippets are preceeded by a `ED:` (ED-Colon)
 
 All of the glorious imports you might need for importing your decorators in Ember.
 
+###Argument Types
+
+There are snippets for all supported argument types, which use the prefix
+```ED:arg:...```
+
+For example `ED:arg:Action` for the Action type.
+Also, for basic types all in one go, use `ED:arg:Common` which includes the primitives, and Action
+
+
 Bonus Snippets:
 `ED:autoComputed`
 `ED:ServiceTemplate` -> The base definition for a my-service.js file

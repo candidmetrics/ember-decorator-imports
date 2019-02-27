@@ -3,6 +3,50 @@
     "prefix": "ED:argument",
     "body": "import { argument } from '@ember-decorators/argument';"
   },
+  "EmberDecorator.Argument.Action": {
+    "prefix": "ED:arg.action",
+    "body": "import { Action } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.ArrayOf": {
+    "prefix": "ED:arg.arrayOf",
+    "body": "import { arrayOf } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.oneOf": {
+    "prefix": "ED:arg.oneOf",
+    "body": "import { arrayOf } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.Optional": {
+    "prefix": "ED:arg.optional",
+    "body": "import { optional } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.ShapeOf": {
+    "prefix": "ED:arg.shapeOf",
+    "body": "import { shapeOf } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.unionOf": {
+    "prefix": "ED:arg.unionOf",
+    "body": "import { unionOf } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.ClassicAction": {
+    "prefix": "ED:arg.ClassicAction",
+    "body": "import { ClassicAction } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.Element": {
+    "prefix": "ED:arg.Element",
+    "body": "import { Element } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.Node": {
+    "prefix": "ED:arg.Node",
+    "body": "import { Node } from '@ember-decorators/argument/types';"
+  },
+  "EmberDecorator.Argument.Common": {
+    "prefix": "ED:arg.Common",
+    "body": "import { any, boolean, number, object, string, Action } from '@ember-decorators/argument/types';"
+  },
+
+
+
+
   "EmberDecorator.Type": {
     "prefix": "ED:type",
     "body": "import { type } from '@ember-decorators/argument/type';"
@@ -181,7 +225,7 @@
   },
   "EmberDecorator.Service": {
     "prefix": "ED:service",
-    "body": "import { service } from '@ember-decorators/service';"
+    "body": "import { inject as service } from '@ember-decorators/service';"
   },
   "EmberDecorator.ServiceModel": {
     "prefix": "ED:Service",
